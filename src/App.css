@@ -37,10 +37,10 @@ body{
 }
 
 /* Navigasi Home and Search */
-nav {
+header nav {
     display: flex;
     background-color: #181818;
-    margin: 5px;
+    margin: 10px 5px 5px;
     padding: 5px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -349,7 +349,7 @@ svg {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--active-color);
+  background: none;
   opacity: 0;
   visibility: hidden;
 }
@@ -357,7 +357,7 @@ svg {
 .input {
   color: #fff;
   width: 100%;
-  margin-inline: min(2em,calc(10px + 10px));
+  margin-inline: min(3em,calc(20px + 20px));
   background: none;
   border: none;
 }
