@@ -1,4 +1,10 @@
+import { useContext } from "react";
+
+// * Global Variabel
+import SearchContext from "../contexts/SearchContext";
+
 export default function NavigasiBar() {
+  const { clickSearch } = useContext(SearchContext)
   return (
     <>
     <nav>
@@ -10,7 +16,7 @@ export default function NavigasiBar() {
           </p>
         </li>
         <li>
-          <p>
+          <p onClick={clickSearch}>
             <i className="fas fa-search" />
             Search
           </p>
