@@ -4,7 +4,6 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import Container from './component/Container'
 
 function App() {
-
   return (
     <>
       <Container/>
