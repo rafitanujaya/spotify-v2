@@ -7,10 +7,10 @@ export default function Footer() {
         <p>© 2023 Rafi Asshiddiqie Tanujaya. All rights reserved.</p>
         <ul className="footer-links">
           <li>
-            <a href="#">Linkedln</a>
+            <a href="https://www.linkedin.com/in/rafitanujaya/">Linkedln</a>
           </li>
           <li>
-            <a href="#">github</a>
+            <a href="https://github.com/rafitanujaya">github</a>
           </li>
           <li>
             <a href="#">Contact</a>
