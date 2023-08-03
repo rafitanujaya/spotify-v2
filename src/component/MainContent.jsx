@@ -6,7 +6,7 @@ export default function MainContent() {
     <>
     <main>
         <Songs/>
-        <Songs/>
+        <Songs song={"songs trending"}/>
         <DetailPlaylist/>
     </main>
     

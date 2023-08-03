@@ -8,15 +8,14 @@ import SearchContext from "../contexts/SearchContext";
 
 
 export default function Container() {
-  const [search, setSearch] = useState(false)
+  const [isSearchActive, setIsSearchActive] = useState(false);
 
-  const clickSearch = () => {
-    setSearch(!search)
-  }
+
+
 
   const searchContextValue = {
-    search,
-    clickSearch
+    isSearchActive,
+    setIsSearchActive
   }
 
   return (

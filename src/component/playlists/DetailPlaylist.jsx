@@ -1,14 +1,15 @@
 // * Import component
-import Songs from "../songs/Songs";
+import Songs  from '../songs/Songs'
 
 export default function DetailPlaylist() {
+
   return (
     <>
       <div className="detail-playlist">
         <div className="card-detail-playlist">
           <div className="card-img-detail-playlist">
             <img
-              src=""
+              src="https://source.unsplash.com/random/200x200"
               width="150px"
               height="150px"
               alt=""

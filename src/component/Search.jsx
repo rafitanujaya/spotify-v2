@@ -21,8 +21,8 @@ export default function Search() {
             required=""
             placeholder="Search...."
             id="search"
-            value={searchText} // Bind value with state
-            onChange={handleInputChange} // Handle input change
+            value={searchText}
+            onChange={handleInputChange}
           />
           <div className="fancy-bg" />
           <div className="search">

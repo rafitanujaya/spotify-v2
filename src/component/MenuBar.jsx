@@ -7,12 +7,12 @@ import Search from "./Search";
 import SearchContext from "../contexts/SearchContext";
 
 export default function MenuBar() {
-  const { search } = useContext(SearchContext)
+  const { isSearchActive} = useContext(SearchContext)
   return (
     <>
     <div className="menu">
       <div id="search-manu">
-      {search && < Search />}
+      {isSearchActive && < Search />}
       </div>
       <div className="logo-title">Spotify</div>
     </div>
